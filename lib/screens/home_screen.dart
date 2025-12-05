@@ -33,7 +33,45 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text("Hola usuario!"), 
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.notifications_none))
+          
+          _buildMiniSocialIcon(
+            icon: Icons.facebook,
+            color: const Color(0xFF1877F2),
+            tooltip: "Equilibrio Mental - Facebook",
+          ),
+          _buildMiniSocialIcon(
+            customChild: Container(
+              width: 18,
+              height: 18,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(4),
+                gradient: const LinearGradient(
+                  colors: [Color(0xFFFCAF45), Color(0xFFE1306C), Color(0xFF833AB4)],
+                  begin: Alignment.bottomLeft,
+                  end: Alignment.topRight,
+                ),
+              ),
+              child: const Icon(Icons.camera_alt_outlined, color: Colors.white, size: 12),
+            ),
+            tooltip: "Equilibrio Mental - Instagram",
+          ),
+          Tooltip(
+            message: "Equilibrio Mental - X",
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: Center(
+                child: Text(
+                  "𝕏",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey[800],
+                  ),
+                ),
+              ),
+            ),
+          ),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.notifications_none)),
         ],
       ),
       body: SingleChildScrollView(
@@ -153,6 +191,21 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(title, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _buildMiniSocialIcon({
+    IconData? icon,
+    Color? color,
+    Widget? customChild,
+    required String tooltip,
+  }) {
+    return Tooltip(
+      message: tooltip,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 6),
+        child: customChild ?? Icon(icon, color: color, size: 22),
       ),
     );
   }

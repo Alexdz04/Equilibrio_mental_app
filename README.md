@@ -37,26 +37,32 @@ Capturas de pantalla:
 Aqui se muestran algunas capturas del prototipo de la aplicación.
 
 <p align="center">
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-10-51-43.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-10-51-43.png" width="240" alt="Screenshot 1" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-10-41.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-10-41.png" width="240" alt="Login" />
 	</a>
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-11-11-07.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-11-11-07.png" width="240" alt="Screenshot 2" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-10-47.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-10-47.png" width="240" alt="Inicio" />
 	</a>
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-11-11-12.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-11-11-12.png" width="240" alt="Screenshot 3" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-10-57.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-10-57.png" width="240" alt="Citas" />
 	</a>
 </p>
 
 <p align="center">
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-11-11-23.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-11-11-23.png" width="240" alt="Screenshot 4" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-11-04.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-11-04.png" width="240" alt="Recursos" />
 	</a>
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-11-11-31.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-11-11-31.png" width="240" alt="Screenshot 5" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-11-09.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-11-09.png" width="240" alt="Videollamada" />
 	</a>
-	<a href="capturas%20pantalla/Screenshot_2025-11-24-11-11-44.png">
-		<img src="capturas%20pantalla/Screenshot_2025-11-24-11-11-44.png" width="240" alt="Screenshot 6" />
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-11-21.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-11-21.png" width="240" alt="Detalles" />
+	</a>
+</p>
+
+<p align="center">
+	<a href="capturas%20pantalla/Screenshot_2025-12-01-16-11-28.png">
+		<img src="capturas%20pantalla/Screenshot_2025-12-01-16-11-28.png" width="240" alt="Mas opciones" />
 	</a>
 </p>
 
@@ -87,3 +93,6 @@ Proyecto final para presentar para nuestro proyecto final.
 Jean Carlos Estévez 
 
 Jayner Alejandro Díaz Peralta 
+
+
+App disponible para descargar y probar en el Release
